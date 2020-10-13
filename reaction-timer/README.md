@@ -1,2 +1,2 @@
 # reactionTimer
-This is a small game I've created in the Complete Web Developer course. Enjoy!
+This is a small game I've created while learning JavaScript und JQuery. Enjoy!
