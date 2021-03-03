@@ -14,7 +14,7 @@ function fetchJSONFile(path, callback) {
 
 // this requests the file and executes a callback with the parsed result once
 //   it is available
-fetchJSONFile('p/Users/violaivanova/Documents/Art_Gallery_Website/astromechanic.github.io/astromechanic.github.io/art/images.json', function(data){
+fetchJSONFile('./images.json', function(data){
     // do something with your data
     console.log(data);
 });
