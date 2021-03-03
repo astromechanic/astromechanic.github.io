@@ -14,7 +14,7 @@ function fetchJSONFile(path, callback) {
 
 // this requests the file and executes a callback with the parsed result once
 //   it is available
-fetchJSONFile('./images.json', function(data){
+fetchJSONFile('images.json', function(data){
     // do something with your data
     console.log(data);
 });
