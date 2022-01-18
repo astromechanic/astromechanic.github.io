@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>Book List</title>
+        <style>
+            .error {
+                color: white;
+                padding: 5px;
+                margin: 5px 0 15px 0;
+                background: red;
+            }
+            i:hover {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2>Your book list</h1>
+            </div>
+            <div class="row">
+                <div id="messageContainer"></div>
+            </div>
+            <div class="row">
+                <form id="bookForm">
+                    <div class="row">
+                        <label for="title">Title</lable>
+                        <input class="u-full-width" type="text" id="title">
+                    </div>
+                    <div class="row">
+                        <label for="author">Author</lable>
+                        <input class="u-full-width" type="text" id="author">
+                    </div>
+                    <div class="row">
+                        <label for="isbn">ISBN</lable>
+                        <input class="u-full-width" type="text" id="ISBN">
+                    </div>
+
+                    <input class="button-primary" type="submit" value="Add book" id="addBook">
+                </form>
+            </div>
+            <table class="u-full-width">
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="bookList">
+                    <!-- books are going here -->
+                </tbody>
+              </table>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
